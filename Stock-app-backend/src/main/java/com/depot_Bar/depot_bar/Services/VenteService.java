@@ -138,7 +138,7 @@ public class VenteService {
                             ", Prix unitaire: " + dbProd.get().getUnitPrice() +
                             ", Prix vendu: " + item.getPrixVendu() +
                             ", Total: " + itemTotal
-                     );
+                    );
 
                         coutTotal += itemTotal;
                         prixVenduTotal += itemTotal;
